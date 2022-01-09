@@ -1,0 +1,16 @@
+header {
+    display: grid;
+    display-template-columns: 1fr, 1fr, 1fr;
+    background-color:blue;
+}
+
+h1{
+    grid-column: 2/3;
+    color:cornsilk;
+    text-align: center;
+}
+
+img{
+    grid-column: 1/1;
+}
+

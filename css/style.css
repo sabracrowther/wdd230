@@ -1,5 +1,5 @@
 body{
-    max-width: 800px;
+    max-width: 600px;
 }
 header {
     display: flex;
@@ -12,17 +12,19 @@ h1{
 }
 
 img{
-    grid-column: 1/1;
+    max-width: 100px;
+}
+h2{
+    border-bottom: 8px solid black;
+    text-align: left;
 }
 footer{
     background-color: navy;
 }
 footer p{
-    color:cornsilk;
+        color:cornsilk;
 }
-h2{
-    border-bottom: 8px solid black;
-}
+
 ul{
     border-bottom: 8px solid black;
 }

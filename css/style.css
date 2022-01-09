@@ -2,16 +2,19 @@ body{
     max-width: 600px;
 }
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     background-color:blue;
 }
 
 h1{
+    grid-column: 2/2;
     color:cornsilk;
     text-align: center;
 }
 
 img{
+    grid-column: 1/1;
     max-width: 100px;
 }
 h2{
@@ -27,6 +30,7 @@ footer p{
 }
 
 ul{
+    margin-bottom: 15px;
     border-bottom: 8px solid black;
 }
 

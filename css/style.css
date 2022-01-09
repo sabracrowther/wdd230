@@ -7,7 +7,6 @@ header {
 }
 
 h1{
-    grid-column: 2/3;
     color:cornsilk;
     text-align: center;
 }
@@ -20,6 +19,12 @@ footer{
 }
 footer p{
     color:cornsilk;
+}
+h2{
+    border-bottom: 8px solid black;
+}
+ul{
+    border-bottom: 8px solid black;
 }
 
 

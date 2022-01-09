@@ -1,6 +1,5 @@
 header {
-    display: grid;
-    display-template-columns: 1fr, 1fr, 1fr;
+    display: flex;
     background-color:blue;
 }
 

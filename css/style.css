@@ -1,3 +1,6 @@
+body{
+    max-width: 800px;
+}
 header {
     display: flex;
     background-color:blue;
@@ -12,4 +15,11 @@ h1{
 img{
     grid-column: 1/1;
 }
+footer{
+    background-color: navy;
+}
+footer p{
+    color:cornsilk;
+}
+
 

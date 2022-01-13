@@ -32,10 +32,7 @@ footer p{
         text-align: center;
 }
 
-li:nth-child(10){
-    margin-bottom: 20px;
-}
-    
+
 div{
      
     border-bottom: 8px solid black;

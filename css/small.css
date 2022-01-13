@@ -1,0 +1,44 @@
+body{
+    max-width: 600px;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color:blue;
+}
+
+h1{
+    grid-column: 2/2;
+    color:cornsilk;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img{
+    grid-column: 1/1;
+    max-width: 100px;
+}
+h2{
+    border-bottom: 8px solid black;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+}
+footer{
+    background-color: navy;
+}
+footer p{
+        color:cornsilk;
+        text-align: center;
+}
+
+li:nth-child(10){
+    margin-bottom: 20px;
+}
+    
+div{
+     
+    border-bottom: 8px solid black;
+}
+
+

@@ -20,8 +20,7 @@ img{
     max-width: 100px;
 }
 h2{
-    border-bottom: 8px solid black;
-    text-align: left;
+    text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
 footer{
@@ -31,11 +30,12 @@ footer p{
         color:cornsilk;
         text-align: center;
 }
-
-
-div{
-     
+ul{
+    text-align: center;
+    border-top: 8px solid black;
     border-bottom: 8px solid black;
 }
+
+
 
 

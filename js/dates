@@ -1,6 +1,6 @@
 
 
-const dayNames = [
+const daynames = [
     "Sunday",
     "Monday",
     "Tuesday",
@@ -24,14 +24,13 @@ const months = [
     "December"
 ];
 const d = new Date();
-const dayName = dayNames[d.getDay()];
+const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 //const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
-const fullDate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 // using getElementById
-document.getElementById("currentdate").textContent = fullDate;
+document.getElementById("currentdate").textContent = fulldate;
 // ****************************
 // using querySelector
-
-document.querySelector('#lastmod').innerHTML=document.lastModified;
+const date2 = document.querySelector('#currentdate2');

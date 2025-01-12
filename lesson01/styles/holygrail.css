@@ -23,12 +23,14 @@ nav {
 
 main {
     background: coral;
+    padding: 2rem;
     grid-column: 1 /2;
 
 }
 
 .right-sidebar {
     background: yellow;
+    padding: 2rem;
     grid-column: 2 / 3;
 
 }

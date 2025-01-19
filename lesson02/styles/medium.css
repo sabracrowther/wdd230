@@ -1,0 +1,19 @@
+@media (min-width: 600px) and (max-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        gap: 65px;
+    }
+
+    section.hierarchy {
+        grid-column: 1;
+    }
+
+    section.thirds {
+        grid-column: 2;
+    }
+
+    section.clean {
+        grid-column: 1/3;
+    }
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 599px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+
+    }
+
+    section.hierarchy {
+        grid-column: 1;
+    }
+
+    section.thirds {
+        grid-column: 1;
+    }
+
+    section.clean {
+        grid-column: 1;
+    }
+}

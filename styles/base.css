@@ -28,6 +28,10 @@ nav {
     grid-column: 2 / 3;
 }
 
+nav ul li {
+    margin: 10px;
+}
+
 main {
     grid-column: 2 / 3;
 }

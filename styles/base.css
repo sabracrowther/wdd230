@@ -65,6 +65,20 @@ h3 {
     font-style: normal;
 }
 
+.links {
+    display: inline;
+}
+
+ul.weekly-assignments li div.links a {
+    margin: 0 5px
+        /*adds spaceing between the links*/
+}
+
+ul.weekly-assignments li div.links .separator {
+    padding: 0 5px;
+    /*adds spacing around the '|' separator*/
+}
+
 footer {
     background-color: navy;
     grid-column: 2 / 3;

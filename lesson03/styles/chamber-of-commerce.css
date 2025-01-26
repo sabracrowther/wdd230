@@ -38,6 +38,11 @@ section.scenarios {
 
 section.color {
     grid-column: 2;
+
+}
+
+.color h2 {
+    text-align: center;
 }
 
 section.color p {

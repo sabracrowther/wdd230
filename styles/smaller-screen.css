@@ -1,0 +1,26 @@
+@media (max-width: 480px) {
+	#menu {
+		display: block;
+	}
+
+	.navigation {
+		display: none;
+		flex-direction: column;
+	}
+
+	.navigation.show {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		/* change state in small view flex: 1 1 100%;*/
+		text-align: center;
+
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+}

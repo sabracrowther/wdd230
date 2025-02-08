@@ -1,11 +1,12 @@
 @media (max-width: 480px) {
 	#menu {
-		display: block;
+		display: none;
 	}
 
 	.navigation {
 		display: none;
 		flex-direction: column;
+		background-color: rgb(195, 213, 228);
 	}
 
 	.navigation.show {
@@ -16,18 +17,11 @@
 		display: block;
 		/* change state in small view flex: 1 1 100%;*/
 		text-align: center;
-
+		font-size: large;
+		padding: 1rem;
 	}
 
 	.navigation a {
 		text-align: center;
 	}
-
-	header,
-	nav,
-	main,
-	footer {
-		grid-column: 1/4;
-	}
-
 }

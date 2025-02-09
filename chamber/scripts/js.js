@@ -17,3 +17,25 @@ hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('show');
     hambutton.classList.toggle('show');
 });
+
+const modeButton = document.querySelector("#mode");
+const body = document.querySelector("body");
+const main = document.querySelector("main");
+
+if (localStorage.getItem('dark-mode') === 'enabled') {
+    body.classList.add('dark-mode');
+    mode.checked = true;
+}
+
+
+
+modeButton.addEventListener("change", () => {
+    if (mode.checked) {
+        body.classList.add('dark-mode');
+        localStorage.setItem('dark-mode', 'enabled')
+    } else {
+        body.classList.remove('dark-mode');
+        localStorage.setItem('dark-mode', 'disabled')
+    }
+
+});

@@ -112,6 +112,37 @@ main {
     background-color: #0C7489;
 }
 
+.hero {
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.heroname {
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid rgba(0, 0, 0, .75);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
+}
+
+.heroname p::after {
+    padding: 2rem;
+    content: "small";
+    color: black;
+    font-weight: bold;
+}
+
+
 section {
     /*display: grid;
     grid-template-columns: 1fr 1fr 1fr;*/

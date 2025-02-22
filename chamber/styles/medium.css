@@ -1,5 +1,10 @@
-@media (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 767px) {
     main {
         background-color: black;
+    }
+
+    .heroname p::after {
+        padding: 2rem;
+        content: "Medium";
     }
 }

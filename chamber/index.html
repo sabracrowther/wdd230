@@ -52,12 +52,27 @@
             </ul>
         </nav>
     </header>
-    <div class="cta">
+    <!-- <div class="cta">
         <img src="images/chamber-hero-1.jpg" alt="Layton sunset" width="600" height="400">
         <button>Become A Member</button>
+    </div> -->
+    <div class="hero">
+        <picture>
+            <source srcset="images/week06-chamber-image-small.webp" media="(max-width: 500px)">
+            <source srcset="images/week06-chamber-image-medium.webp" media="(max-width: 750px)">
+            <img src="images/week06-chamber-image-large.webp" alt="large image of 3 people in office setting"
+                width="960" height="480">
+
+        </picture>
+        <div class="heroname">
+            <p></p>
+        </div>
+
     </div>
 
+
     <main>
+
         <div>
             <section class="events">
                 <h2>Events</h2>
@@ -68,7 +83,14 @@
             </section>
             <section class="weather">
                 <h2>Weather</h2>
-                <p>There will be some weather information here.</p>
+                <label for="temperature">Enter Temperature (F): </label>
+                <input type="number" id="temperature" placeholder="Temperature in F">
+                <br><br>
+                <label for="windSpeed">Enter Wind Speed (MPH): </label>
+                <input type="number" id="windSpeed" placeholder="Wind speed in MPH">
+                <br><br>
+                <button onclick="calculateWindChill()">Calculate Wind Chill</button>
+                <h2 id="result">Wind Chill: </h2>
             </section>
             <section class="member-spotlights">
                 <article class="member-spotlight">
@@ -98,6 +120,7 @@
 
     </footer>
     <script src="scripts/js.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

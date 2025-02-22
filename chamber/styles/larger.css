@@ -17,6 +17,11 @@
         padding-right: 20px;
     }
 
+    .heroname p::after {
+        padding: 2rem;
+        content: "Large";
+    }
+
     main div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

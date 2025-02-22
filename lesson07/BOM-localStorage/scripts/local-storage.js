@@ -4,7 +4,7 @@ const list = document.querySelector('#list');
 let chaptersArray = getChapterList() || [];
 
 chaptersArray.forEach(chapter => {
-    diplayList(chapter);
+    displayList(chapter);
 });
 
 
@@ -16,7 +16,6 @@ button.addEventListener('click', () => {
         setChapterList();
         input.value = '';
         input.focus();
-
     }
 });
 

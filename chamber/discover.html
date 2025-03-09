@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Sabra Smith Crowther's Chamber of Commerce assignment for WDD 230 - Frontend Web Development.">
+    <meta name="author" content="Sabra Smith Crowther">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Cabin:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Sabra Crowther Chamber of Commerce WDD 230 Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://pixabay.com/photos/bridge-sacramento-california-4545219">
+    <meta property="og:url" content="https://sabracrowther.github.io/wdd230">
+
+    <title>Sabra Crowther - Chamber of Comnemrce - WDD 230 Web Frontend Development
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>Layton Chamber of Commerce</h1>
+
+        <label for="mode">
+            <input type="checkbox" id="mode">
+            <span class="slider-round"></span>
+        </label>
+
+        <a id="menu" href="#" aria-label="menu id"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" aria-label="Home page">Home</a></li>
+                <li><a href="discover.html" aria-label="Discover page">Discover</a></li>
+                <li><a href="#" aria-label="Directory">Directory</a></li>
+                <li><a href="#" aria-label="Join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <div class="cta">
+        <img src="images/chamber-hero-1.jpg" alt="Layton sunset" width="600" height="400">
+        <button>Become A Member</button>
+    </div> -->
+    <div class="hero">
+        <picture>
+            <source srcset="images/chamber-hero-small.webp" media="(max-width: 500px)">
+            <source srcset="images/chamber-hero-large.webp" media="(max-width: 750px)">
+            <img src="images/chamber-hero-large.webp" alt="Layton Sunset" width="960" height="480">
+
+        </picture>
+        <div class="heroname">
+            <p></p>
+        </div>
+
+    </div>
+
+
+    <main>
+
+        <div class="container">
+            <aside class="sidebar">
+                <section class="demographics">
+                    <h2>Layton Demographics</h2>
+                    <p><b>Population:</b> 83,516 (2023)</p>
+                    <p><b>Elevation:</b> 4,356'</p>
+                    <p><b>Median Household Income:</b> $99,188 (2019-2023)</p>
+                    <p><b>Land Area in Square Miles:</b> 22.5 (2020)</p>
+                    <p><b>Population per Square Mile:</b> 3,635 (2020)</p>
+                </section>
+                <section class="events">
+                    <h2>Events</h2>
+                    <h3>Chugging, Screeching, rumbling, and Billowing Travelling Exhibit</h3>
+                    <p>Heritage Museum of Layton (403 Wasatch Drive, Layton, UT)</p>
+                    <p>February 15 - March 30</p>
+
+                </section>
+                <section class="last-visited">
+                    <h3>Last Visited: <span id="last-visited"></span></h3>
+                    <p><span id="site-visited-message"></span></p>
+
+                </section>
+                <section class="calendar">
+                    <iframe title="Google calendar"
+                        src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FLos_Angeles"
+                        style="border: 0" width="300" height="300"></iframe>
+                </section>
+
+            </aside>
+            <div class="main-img">
+                <figure>
+                    <img src="images/cinemark.webp" alt="Cinemark movie Theater" loading="lazy" width="600"
+                        height="300">
+                    <figcaption>Cinemark Movie Theater</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/davis-conference-center.webp" alt="Davis Conference Center" loading="lazy"
+                        width="600" height="300">
+                    <figcaption>Davis Conference Center</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/layton-mall.webp" alt="Layton Mall" loading="lazy" width="600" height="300">
+                    <figcaption>Layton Mall</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/layton-temple.webp" alt="Layton LDS Temple" loading="lazy" width="600"
+                        height="300">
+                    <figcaption>Layton LDS Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/seaquest.webp" alt="SeaQuest located in Layton Mall" loading="lazy" width="600"
+                        height="300">
+                    <figcaption>SeaQuest - Located in Layton Mall</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/vietnam-war-memorial.webp" alt="Vietnam Memorial Wall" loading="lazy" width="600"
+                        height="300">
+                    <figcaption>Vietnam Memorial Wall</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/war-dog.webp" alt="War Dog statue at Vietnam Memorial" loading="lazy" width="600"
+                        height="300">
+                    <figcaption>War Dog statue at Vietnam Memorial</figcaption>
+                </figure>
+            </div>
+
+        </div>
+
+    </main>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+
+    <footer>
+        <p>&copy; 2025 Sabra Crowther Utah </p>
+        <p>Chamber of Commerce Project WDD 230 </p>
+        <p id="lastModified">Date last modified: </p>
+
+    </footer>
+    <script src="scripts/js.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>

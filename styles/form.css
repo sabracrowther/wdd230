@@ -1,18 +1,24 @@
+:root {
+    --border-radius: 6px;
+    --block: block;
+    --legend-color: #445ba9;
+}
+
 .form fieldset {
     margin: 2rem 0;
     border: 1px solild #ddd;
-    border-radius: 6px;
+    border-radius: var(--border-radius);
     padding: .5rem 2%
 }
 
 .form legend {
-    color: #445ba9;
+    color: var(--legend-color);
     padding: 0 .5rem;
     font-size: 1.5rem;
 }
 
 .form label {
-    display: block;
+    display: var(--block);
     padding-top: 1rem;
     font-size: .9rem;
 }
@@ -22,18 +28,17 @@ input[type="password"],
 input[type="email"],
 input[type="range"] {
     background-color: #eee;
-    display: block;
+    display: var(--block);
     border: solid 1px #9999;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     padding: .75rem;
     color: #555;
     width: 100%;
     max-width: 350px;
-
 }
 
 .form input[type="submit"] {
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     padding: .8rem;
     width: 100%;
     max-width: 350px;
@@ -49,7 +54,6 @@ input[type="range"] {
 .form input:required:valid {
     border-bottom: solid 3px green;
 }
-
 
 #rate-range {
     /* numeric value of page rating - displayed above rating slide*/
@@ -71,17 +75,20 @@ input[type="range"] {
     margin-left: -10px;
 }
 
-h2 {
+h2,
+p,
+#password-message {
     text-align: center;
+}
+
+h2 {
     font-weight: bolder;
 }
 
 p {
-    text-align: center;
     font-size: larger;
 }
 
 #password-message {
-    text-align: center;
     font-size: 100%;
 }

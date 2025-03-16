@@ -1,0 +1,87 @@
+.form fieldset {
+    margin: 2rem 0;
+    border: 1px solild #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%
+}
+
+.form legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+.form label {
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+.form input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #9999;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 350px;
+
+}
+
+.form input[type="submit"] {
+    border-radius: 5px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 350px;
+    margin: 1rem 1rem 3rem;
+    box-shadow: 1px 1px 4px #999;
+    font-size: 1.2rem;
+}
+
+.form input:required {
+    border-bottom: solid 3px red;
+}
+
+.form input:required:valid {
+    border-bottom: solid 3px green;
+}
+
+
+#rate-range {
+    /* numeric value of page rating - displayed above rating slide*/
+    font-size: 2rem;
+    color: navy;
+    max-width: 350px;
+}
+
+#r-values {
+    /* list of numeric values displayed under rating slide*/
+    display: flex;
+    margin: 0 0 0 25px;
+    width: 370px;
+}
+
+#r-values option {
+    /* numbers displayed below rating slide*/
+    flex: 1 1 0;
+    margin-left: -10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+#password-message {
+    text-align: center;
+    font-size: 100%;
+}
